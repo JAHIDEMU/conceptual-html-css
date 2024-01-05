@@ -1,0 +1,63 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+</style>
+
+h1{
+    color: red;
+}
+.hero{
+    background-image: url(../cow.jpg);
+    height: 1200px;
+    background-position: bottom center;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero h1{
+    color: aqua;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    word-spacing: 40px;
+    letter-spacing: 20px;
+}
+.article ,#cow-type{
+    /* margin-left: auto; */
+    width: 80%;
+    /* margin-right: auto; */
+    /* margin-top: 60px; */
+    /* margin-bottom: 60px; */
+    margin: 60px auto;
+    background-color: aqua;
+    padding: 60px;
+    border-width: 15px;
+    border-color: yellow;
+    border-style: groove;
+
+}
+.article h2{
+    text-align: center;
+    font-size: 47px;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 2px;
+    border-top: 0px;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+}
+.article p{
+    font-size: 28px;
+    line-height: 2em;
+
+}
+.article p .imp{
+    font-size: 100px;
+
+}
